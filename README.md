@@ -1,85 +1,85 @@
-# 🧠 Cain Galarza — Offensive Security Portfolio
+# 🧠 Cain Galarza — Cybersecurity & Offensive Security Portfolio
 
-Welcome to my lab journal and personal hacking portfolio. I'm a self-taught cybersecurity learner focused on web exploitation, red teaming, and digital tools that solve real-world problems — especially for reentry and social impact.
-
-I don't just watch tutorials. I build, break, and rebuild to learn.
-
----
-
-## 🔓 Web Exploitation & Pentesting Projects
-
-### ✅ Full WordPress Exploit Chain (Self-Hosted Lab)
-- Deployed a WordPress instance on Kali Linux using a custom LAMP stack.
-- Exploited a vulnerable plugin to gain **remote shell access** as `www-data`.
-- Extracted and cracked a **bcrypt password hash** using `John the Ripper` and `rockyou.txt`.
-- Demonstrated post-exploitation techniques: accessing `wp-config.php`, enumerating users, and lateral movement.
-- Built and deployed a custom **vulnerable plugin** for safe file upload testing.
-
-### ⚙️ LAMP Stack Buildout (Manual Setup)
-- Installed and configured Apache, PHP 8.4, and MariaDB on Kali Linux.
-- Created and secured MySQL databases and users using CLI only.
-- Tweaked PHP configs (`php.ini`) to allow plugin uploads and remove default limitations.
+📧 **Email:** caingalarza@gmail.com  
+🌍 **Location:** Oregon / Remote  
+🔐 **Focus:** Web exploitation · Red teaming · Ethical hacking · Security for social impact  
+📌 *“Offense is how I learn. Defense is how I help.”*
 
 ---
 
-## 🛠️ Tools & Recon Experience
+## 👨‍💻 About Me
 
-### 🕵️ Bug Bounty Recon Workflow
-- Practiced real-world recon with:
-  - `ReconFTW` (fully automated subdomain & port scanning)
-  - `gau`, `ffuf`, `nmap`, `dirsearch`, and passive OSINT tools.
-- Learned to chain passive and active recon for mapping live assets and open endpoints.
+I'm a self-taught cybersecurity learner building my skills one exploit at a time. I specialize in **real-world, hands-on labs** — not just theory. My work blends curiosity, discipline, and a mission to use technology to solve real problems, especially around reentry and justice system reform.
 
-### 🧪 Termux Spyware Research (Android)
-- Investigated the structure of Android keyloggers and spyware payloads for ethical research purposes.
-- Learned how root access changes payload capability.
-- Explored data exfiltration techniques over HTTP and socket shells within a safe, offline lab environment.
+This repo documents what I’ve done, how I did it, and why it matters.
 
 ---
 
-## 🧠 Hack The Box & CTF Foundations
+## 🧰 Projects & Skills
 
-- Completed beginner-level HTB labs with no solution walkthroughs.
-- Practiced enumeration, exploitation, hash cracking, file upload bypasses, and privilege escalation.
-- Focused on learning attack flow, not just flags.
+### 🔓 WordPress Exploitation Lab
+- Built and exploited a full **WordPress LAMP environment** on Kali Linux.
+- Uploaded a custom vulnerable plugin to achieve **remote code execution**.
+- Gained a reverse shell, extracted `wp-config.php`, and dumped password hashes.
+- Cracked a **bcrypt admin password** using `John the Ripper + rockyou.txt`.
 
----
+### 🕵️ Bug Bounty Recon Practice
+- Used tools like `ReconFTW`, `ffuf`, `gau`, and `nmap` to map assets and endpoints.
+- Practiced passive recon, subdomain enumeration, and dir/file brute-forcing.
+- Focused on **target fingerprinting** and weak entry points.
 
-## 🌍 Social Impact Tech (In Progress)
+### 📱 Android Spyware Research (Educational Only)
+- Explored the structure of Android spyware, keyloggers, and payloads using Termux.
+- Studied root vs. non-root behavior, permissions, and stealth delivery mechanisms.
+- Emphasized **ethical use** in private, offline lab setups only.
 
-### 🚀 *OurNextStep* — Reentry App for Formerly Incarcerated Individuals
-- Ideated features to help justice-impacted people get housing, employment, and document support.
-- Planned tools like:
-  - 📅 Probation check-in reminders
-  - 📄 Document upload/scanning
-  - 📲 Goal tracking and motivational prompts
-- Driven by empathy, real-world interviews, and system change through tech.
-
----
-
-## 🧠 Skills Summary
-
-| Category            | Tools / Experience                                                                 |
-|---------------------|-------------------------------------------------------------------------------------|
-| Web Exploitation    | WordPress, LAMP stack, RCE, reverse shells, plugin uploads                         |
-| Hash Cracking       | John the Ripper, bcrypt, rockyou.txt                                               |
-| Reconnaissance      | nmap, ffuf, gau, subfinder, dirsearch, manual recon flow                           |
-| Linux Skills        | Kali Linux, `www-data` shells, Apache logs, system config, privilege enumeration   |
-| Malware Research    | Android/Termux payload mechanics, ethical test labs                                |
-| Soft Skills         | Resourceful, curious, empathetic, social-impact focused                            |
+### 🧪 Custom Plugin Development
+- Built a simple vulnerable WordPress plugin for file upload testing.
+- Practiced PHP basics, WordPress hooks, and plugin deployment strategies.
+- Learned from debugging plugin errors using Apache and PHP logs.
 
 ---
 
-## 📬 Let’s Connect
+## 🎯 Mission-Driven Projects
+
+### 🔧 *OurNextStep* — Reentry Support App (In Planning)
+An app idea for formerly incarcerated people to:
+- ✅ Find housing, jobs, and ID/document support
+- 🧠 Track goals and court requirements
+- 🔁 Get automated reminders for probation/parole check-ins
+- 📲 Stay accountable and motivated in their reentry journey
+
+---
+
+## 🧠 Tools I Use Regularly
+
+| Category            | Tools / Skills                                                           |
+|---------------------|--------------------------------------------------------------------------|
+| Web Exploitation    | WordPress, RCE, plugin abuse, reverse shells, LAMP stack setup          |
+| Recon & Scanning    | nmap, ffuf, gau, dirsearch, ReconFTW                                    |
+| Password Cracking   | John the Ripper, bcrypt, wordlists                                       |
+| Linux/Post-Ex       | Apache logs, www-data shells, privilege escalation basics                |
+| Android Research    | Termux, payload structure, permission models                             |
+
+---
+
+## 🌱 What’s Next
+
+- Finish more Hack The Box machines (without spoilers)
+- Learn Python scripting for automation
+- Build more ethical malware/PoC tools for learning
+- Turn *OurNextStep* from idea into MVP
+
+---
+
+## 💬 Reach Out
 
 I'm open to:
-- Penetration testing roles
-- Bug bounty collabs
-- Reentry tech projects
-- Cybersecurity mentorships
+- Mentorships or guidance from experienced red teamers
+- Bug bounty collabs or research partnerships
+- Opportunities in offensive security, reentry tech, or justice reform
 
-**📧 Email:** *[yourname@email.com]*  
-**📍 Based in:** Oregon / Remote  
-**🎯 Mission:** Use offense to build a better defense — and turn lived experience into real solutions.
+📧 **caingalarza@gmail.com**  
+📍 Based in Oregon, available for remote collaboration.
 
----
+Let’s build something powerful — and use what we learn to help people, not hurt them.
